@@ -1,0 +1,6 @@
+{
+  "name": "SwiftCard Exchange",
+  "description": "Premium, trustworthy, and fast gift card trading platform offering the best rates and instant payments.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
