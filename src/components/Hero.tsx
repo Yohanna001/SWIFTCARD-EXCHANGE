@@ -129,7 +129,8 @@ export default function Hero() {
                       src={steamCard.imageUrl}
                       alt="Steam Gift Card"
                       referrerPolicy="no-referrer"
-                      className="w-full h-full object-cover opacity-50 group-hover:opacity-80 group-hover:scale-105 transition-all duration-500 ease-out"
+                      className="absolute inset-0 w-full h-full object-cover object-center opacity-50 group-hover:opacity-80 group-hover:scale-105 transition-all duration-500 ease-out"
+                      style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center' }}
                       onError={(e) => {
                         (e.target as HTMLImageElement).src = `https://images.unsplash.com/photo-1612287230202-1bf1d85d1bdf?auto=format&fit=crop&w=400&q=80`;
                       }}
@@ -171,7 +172,8 @@ export default function Hero() {
                       src={appleCard.imageUrl}
                       alt="Apple Gift Card"
                       referrerPolicy="no-referrer"
-                      className="w-full h-full object-cover opacity-50 group-hover:opacity-80 group-hover:scale-105 transition-all duration-500 ease-out"
+                      className="absolute inset-0 w-full h-full object-cover object-center opacity-50 group-hover:opacity-80 group-hover:scale-105 transition-all duration-500 ease-out"
+                      style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center' }}
                       onError={(e) => {
                         (e.target as HTMLImageElement).src = `https://images.unsplash.com/photo-1611186871348-b1ce696e52c9?auto=format&fit=crop&w=400&q=80`;
                       }}
@@ -213,7 +215,8 @@ export default function Hero() {
                       src={amazonCard.imageUrl}
                       alt="Amazon Gift Card"
                       referrerPolicy="no-referrer"
-                      className="w-full h-full object-cover opacity-50 group-hover:opacity-80 group-hover:scale-105 transition-all duration-500 ease-out"
+                      className="absolute inset-0 w-full h-full object-cover object-center opacity-50 group-hover:opacity-80 group-hover:scale-105 transition-all duration-500 ease-out"
+                      style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center' }}
                       onError={(e) => {
                         (e.target as HTMLImageElement).src = `https://images.unsplash.com/photo-1523474253046-8cd2748b5fd2?auto=format&fit=crop&w=400&q=80`;
                       }}

@@ -137,7 +137,8 @@ export default function RatesGrid({ onSelectCard }: RatesGridProps) {
                         src={card.imageUrl} 
                         alt={`${card.name} Gift Card`}
                         referrerPolicy="no-referrer"
-                        className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-700 ease-out"
+                        className="absolute inset-0 w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-700 ease-out"
+                        style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center' }}
                         loading="lazy"
                         onError={(e) => {
                           // Clean fallback in case of loading issues, matching the main corporate branding color

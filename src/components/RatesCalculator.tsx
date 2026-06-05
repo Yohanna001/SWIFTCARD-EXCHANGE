@@ -206,7 +206,8 @@ export default function RatesCalculator({ selectedCardId: selectedCardIdProp, on
                 src={selectedCard.imageUrl} 
                 alt={`${selectedCard.name} Gift Card Preview`}
                 referrerPolicy="no-referrer"
-                className="w-full h-full object-cover object-center"
+                className="absolute inset-0 w-full h-full object-cover object-center"
+                style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center' }}
                 loading="lazy"
                 onError={(e) => {
                   (e.target as HTMLImageElement).src = `https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=400&q=80`;
